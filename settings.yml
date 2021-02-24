@@ -1,0 +1,15 @@
+
+ROUTER: "router ip address" # Router IP address
+USER: "your_username"       # Router username
+PASSWORD: "your_password"   # Router password
+LOG_LEVEL: "INFO"           # Logging level
+TIME_BETWEEN_CALLS: 0.2     # Time between sequential calls, (seconds)
+RETRIES: 3                  # how many time retry
+RETRY_INTERVAL: 0.4         # wait time between retry call seconds
+
+INFLUXDB:
+  USEINFLUX: False
+  ifurl: "host ip/name and port"    # Influx server IP  <ip_address>:<port>
+  iftoken: "your token to InfluxDB" # Authentication token
+  iforg: "influx organization"      # Organization
+  ifbucket: "bucket to data"        # Bucket to put data

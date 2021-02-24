@@ -1,0 +1,13 @@
+crypto
+flatten-json
+pkcs1
+pyasn1
+pycryptodome
+python-dateutil
+requests
+rsa
+urllib3
+uuid
+influxdb-client
+tenacity
+hiyapyco
